@@ -1,14 +1,13 @@
 {
   "name": "code",
-  "homepage": "https://github.io/ABagic/virtualna-ucionica",
+  "homepage": "https://ABagic.github.io/virtualna-ucionica/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --hos",
+    "dev": "vite --host",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -16,11 +15,11 @@
   "type": "commonjs",
   "dependencies": {
     "@dimforge/rapier3d": "^0.19.3",
-    "gh-pages": "^6.3.0",
     "three": "^0.180.0",
     "vite": "^7.1.9"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite-plugin-wasm": "^3.5.0"
   }
 }

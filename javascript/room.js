@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+// import { portal } from "/assets/models/portals/egypt_portal.gltf";
 
 // Dimenzije sobe
 export const ROOM_SIZE = {
@@ -116,7 +117,7 @@ export function createObjects(scene) {
 
   const gltfLoader = new GLTFLoader();
 
-  gltfLoader.load("/assets/models/portals/egypt_portal.gltf", (gltf) => {
+  gltfLoader.load("./assets/models/portals/egypt_portal.gltf", (gltf) => {
     const portal_egypt = new THREE.Mesh(
       gltf.scene.children[0].geometry,
       gltf.scene.children[0].material
@@ -134,7 +135,7 @@ export function createObjects(scene) {
     });
   });
 
-  gltfLoader.load("/assets/models/portals/egypt_portal.gltf", (gltf) => {
+  gltfLoader.load("./assets/models/portals/egypt_portal.gltf", (gltf) => {
     const experiments_portal = new THREE.Mesh(
       gltf.scene.children[0].geometry,
       gltf.scene.children[0].material
