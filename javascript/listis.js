@@ -20,7 +20,7 @@ export const roomModels = {
   LEFT: {
     0: [
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
@@ -32,7 +32,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -44,7 +44,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -57,7 +57,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
@@ -72,7 +72,7 @@ export const roomModels = {
     ],
     1: [
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
@@ -83,7 +83,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -94,7 +94,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -106,7 +106,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
@@ -123,7 +123,7 @@ export const roomModels = {
   RIGHT: {
     0: [
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
@@ -134,7 +134,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -145,7 +145,7 @@ export const roomModels = {
         interactable: true,
       },
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.7,
         x: 1,
         y: 0,
@@ -158,7 +158,7 @@ export const roomModels = {
       },
 
       {
-        url: "/assets/egypt_portal.gltf",
+        url: "/assets/models/portals/egypt_portal.gltf",
         scale: 0.5,
         x: -2,
         y: 0,
