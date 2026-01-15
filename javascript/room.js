@@ -117,7 +117,7 @@ export function createObjects(scene) {
 
   const gltfLoader = new GLTFLoader();
 
-  gltfLoader.load("/assets/egypt_portal.gltf", (gltf) => {
+  gltfLoader.load("./assets/models/portals/egypt_portal.gltf", (gltf) => {
     const portal_egypt = new THREE.Mesh(
       gltf.scene.children[0].geometry,
       gltf.scene.children[0].material
